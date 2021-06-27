@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+:root {
+    --main-bg-color: #2a99a5;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: var(--main-bg-color);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 107px;
+    padding: 0px 25px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 56px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 21px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: border;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 40vw;
+    height: 23px;
+    border-radius: 6px;
+    margin: 0px 5px 0px 59px;
+    padding: 0px 12px;
+}
+.search button{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 701;
+}
+.slider{
+    width: 80vw;
+    margin: 12px 0px;
+    overflow: hidden;
+}
+.card{   
+    max-width: 93vw;
+    margin: 37px auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.card h2{   
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.lines{
+    margin: auto;
+max-width: 1567px;
+}
+.container{
+    min-height: calc(100vh - 56px - 12vh);
+}
+footer{
+    background-color:var(--main-bg-color);
+    color: white;
+    height: 12vh;
+}
